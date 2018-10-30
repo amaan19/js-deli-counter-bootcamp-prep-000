@@ -11,7 +11,7 @@ else {
 }
 }
 function currentLine (array) {
-  let y = [ ]
+  let y = [" "]
     if (array.length > 0) {
     for (let i = 0; i < array.length; i++) {
         y.push(`${i + 1}. ${array[i]}`)
