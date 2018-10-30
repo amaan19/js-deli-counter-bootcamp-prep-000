@@ -14,7 +14,7 @@ function currentLine (array) {
   let y = []
     if (array.length > 0) {
     for (let i = 0; i < array.length; i++) {
-        y.push(`${i+1}. ${array[i]}`)
+        y.push(`${i + 1}. ${array[i]}`)
     }
     return `The line is currently: ${y}`
     } else {
