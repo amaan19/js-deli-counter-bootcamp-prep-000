@@ -13,9 +13,9 @@ else {
 function currentLine (array) {
   if (array.length > 0) { 
   for (let i = 0; i === array.length; i++) {
-  return `The line is currently: ${i + 1}. ${array[i]}`;
+  console.log(`The line is currently: ${i + 1}. ${array[i]}`);
   } 
   } else {
-    return "The line is currently empty.";
+    console.log("The line is currently empty.");
   }
   }
