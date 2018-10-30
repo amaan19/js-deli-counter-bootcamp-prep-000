@@ -12,7 +12,7 @@ else {
 }
 function currentLine (array) {
   let y = []
-    if (array.length === 0) {
+    if (array.length < 1) {
       console.log("The line is currently empty")
     } else {
     for (let i = 0; i < array.length; i++) {
