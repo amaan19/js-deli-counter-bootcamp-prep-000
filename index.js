@@ -12,7 +12,7 @@ else {
 }
 function currentLine (array) {
   if (array.length > 0) { 
-  for (let i = 0; i === array.length; i++) {
+  for (let i = 0; i < array.length; i++) {
   console.log(`The line is currently: ${i + 1}. ${array[i]}`);
   } 
   } else {
