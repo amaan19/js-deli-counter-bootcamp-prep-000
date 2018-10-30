@@ -17,7 +17,7 @@ function currentLine (array) {
     } if (array.length < 1) {
       return "The line is currently empty."
     } else {
-    return `The line is currently: ${y.join(' ,')}`
+    return `The line is currently: ${y.join(', ')}`
     }
 }
 
