@@ -12,13 +12,13 @@ else {
 }
 function currentLine (array) {
   let y = []
-    if (array.length < 1) {
-      console.log("The line is currently empty")
-    } else {
     for (let i = 0; i < array.length; i++) {
         y.push(`${i + 1}. ${array[i]}`)
-    }
+    } if (array.length < 1) {
+      console.log("The line is currently empty")
+    } else {
     return `The line is currently: ${y}`
     }
 }
+
 
